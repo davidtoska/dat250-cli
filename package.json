@@ -1,0 +1,24 @@
+{
+  "name": "dat250-cli",
+  "version": "0.0.1",
+  "description": "cli tool for interacting with firebase",
+  "main": "index.js",
+  "scripts": {
+    "ts-node": "ts-node index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "chalk": "^2.4.1",
+    "commander": "^2.19.0",
+    "core-js": "^2.5.7",
+    "inquirer": "^6.2.0",
+    "ora": "^3.0.0"
+  },
+  "devDependencies": {
+    "ts-node": "^7.0.1",
+    "typescript": "^3.1.3"
+  }
+}
